@@ -1,0 +1,106 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #dc91ed
+}
+
+* {
+  font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+  color: white;
+}
+
+.wrapper {
+  height: 525px;
+  width: 360px;
+  color: white;
+  background: #362639;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  margin: 100px auto;
+}
+
+.container {
+  margin-top: 1.4rem;
+}
+
+#topContainer {
+  margin-top: 3rem;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.inputContainer {
+  background: #553559;
+  border-radius: 1.4rem;
+  padding: 0 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+#billInput,
+#tipInput {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  outline: none;
+  padding: none;
+}
+
+#bottomContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .splitContainer {
+  
+} */
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.buttonContainer {
+  background: #d792f0;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.splitButton {
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+  background: none;
+  border: none;
+}
+
+.buttonText {
+  color: #593555 !important;
+}
+
+.people {
+  font-size: 1.6rem;
+  margin: 0.8rem;
+}
+
+.totalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.total {
+  font-size: 2rem;
+}
+
+#ppTotalCal {
+  color: #11f520;
+}
+
